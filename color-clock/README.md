@@ -1,8 +1,3 @@
-thing in practice).
-
-Here's a README you can drop in:
-
-markdown
 # Focus App — Color Clock
 
 A live-updating clock built with React and Vite, styled with `date-fns`. Customize the hour, minute, and seconds color independently using presets or your own custom color picker.
