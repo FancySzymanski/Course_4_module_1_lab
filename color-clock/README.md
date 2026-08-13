@@ -1,16 +1,31 @@
-# React + Vite
+thing in practice).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here's a README you can drop in:
 
-Currently, two official plugins are available:
+markdown
+# Focus App — Color Clock
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A live-updating clock built with React and Vite, styled with `date-fns`. Customize the hour, minute, and seconds color independently using presets or your own custom color picker.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Live clock updating every second
+- Color presets (Fire, Ocean, Forest) or fully custom colors
+- Custom color choices are remembered even after switching between presets
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Prerequisites:** [Node.js](https://nodejs.org/) (v18 or later recommended)
+
+1. Clone or download this repository.
+2. Install dependencies:
+
+```bash
+   npm install
+```
+
+3. Start the development server:
+
+```bash
+   npm run dev
+```
